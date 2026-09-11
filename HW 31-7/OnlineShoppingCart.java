@@ -50,8 +50,8 @@ class Product{
 public class OnlineShoppingCart{
     
     public static void main(String[] args) {
-        Product product1 = new Product(1, "Laptop", 50000.0, 2);
-        Product product2 = new Product(2, "Smartphone", 20000.0, 3);
+        Product product1 = new Product(1, "Bag", 5000.0, 2);
+        Product product2 = new Product(2, "Shoes", 20000.0, 3);
         product1.displayInvoice();
         product2.displayInvoice();
       

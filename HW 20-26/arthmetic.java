@@ -1,6 +1,7 @@
 import java.util.Scanner;
 public class arthmetic {
     @SuppressWarnings("ConvertToTryWithResources")
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -17,7 +18,7 @@ public class arthmetic {
 
         System.out.println("Total Expenses = " + total);
 
-        sc.close();
+        
 
     }
 }
